@@ -15,7 +15,7 @@ def main():
         print(f"IP yang terhubung ke port {port}:")
         for ip in connected_ips:
             print(ip)
-        time.sleep(5)  # Tunggu 5 detik sebelum mengulang loop
+        time.sleep(5)  # setiap 5 detik akan memanggil ulang atau merefresh
 
 if __name__ == "__main__":
     main()
